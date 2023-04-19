@@ -1,2 +1,2 @@
 # Touch
-A Simple 3ds touch input detector.
+A simple 3ds touch input detector.
