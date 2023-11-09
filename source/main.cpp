@@ -5,7 +5,6 @@ int main(int argc, char **argv) {
 	gfxInitDefault();
 	consoleInit(GFX_TOP, NULL);
 
-	// Main loop
 	while (aptMainLoop())
 	{
 		hidScanInput();
@@ -26,8 +25,7 @@ int main(int argc, char **argv) {
 
 		gfxFlushBuffers();
 		gfxSwapBuffers();
-
-		//Wait for VBlank
+		
 		gspWaitForVBlank();
 	}
 
